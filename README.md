@@ -49,3 +49,7 @@ To set up the notifications table in your database:
 
 ## Notes
 - Update the code with your Event Hub and Storage details before running.
+
+## Email Notification Feature
+
+This branch introduces an email notification feature to the Notification Service. With this functionality, the service can send email alerts to users based on specific events or triggers. The implementation uses standard .NET libraries for SMTP or can be extended to integrate with third-party email providers. Configuration options for email recipients, SMTP server, and message templates are available in the app settings.
